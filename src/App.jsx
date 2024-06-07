@@ -22,7 +22,7 @@ function App() {
     if (characterAllowed) str += "~!@#$%^&*_+-?";
 
     for (let i = 0; i < length; i++) {
-      let randomPasswordChar = str[Math.floor(Math.random() * str.length + 1)];
+      let randomPasswordChar = str[Math.floor(Math.random() * str.length)];
       pass += randomPasswordChar;
     }
 
